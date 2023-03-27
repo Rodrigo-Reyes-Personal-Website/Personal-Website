@@ -31,4 +31,6 @@ h2{
     text-align: center;
     margin-top: 2em;
   }
- 
+ .cam-1{
+    background-image: url(./Personal-Site/cam.jpg);
+ }
