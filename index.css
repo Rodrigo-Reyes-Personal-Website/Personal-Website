@@ -1,5 +1,6 @@
 body{
-    background-color: brown;
+    background-image: url(me.jpg);
+    background-color: rgb(36, 29, 39);
 }
 header {
     font-size: 2rem;
@@ -9,19 +10,18 @@ header {
     padding: .5em 1em;
     box-shadow: 0 2px 4px -2px black;
 }
+
 .links {
     float: right;
-  }
+}
 
 h1 {
-    font-size: 24px;
-}
-h2{
-    font-size: 36px;
+ font-size: 36px;
     font-family: Georgia;
     color: antiquewhite;
   text-shadow: 5px 2px 1px black;
 }
+
 .quote {
     font-family: 'Satisfy', cursive;
     font-weight: 100;
@@ -30,4 +30,9 @@ h2{
     font-size: 3em;
     text-align: center;
     margin-top: 2em;
-  }
+}
+
+img{
+    float: left;
+    padding: 0 10px 0 0;
+}
