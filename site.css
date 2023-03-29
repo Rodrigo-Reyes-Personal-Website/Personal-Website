@@ -2,14 +2,11 @@
     box-sizing: border-box;
   }
 html {
-    font-family: sans-serif;
     font-size: 16px;
-    background: brown;
+    background: rgb(36, 29, 39);
   }
 body {
-    background: rgb(83, 54, 110);
     max-width: 1000px;
-    color: #232323;
     margin: 0 auto;
   }
 header {
@@ -28,7 +25,7 @@ main {
     min-height: 100vh;
     padding: 64px 24px 96px;
     border-radius: 10px;
-    box-shadow: 0 0 22px 2px black;
+    box-shadow: 0 0 22px 2px white;
     color: brown;
     font-family: 'Open Sans', sans-serif;
 }
@@ -41,7 +38,7 @@ main {
 }
 .links a {
     text-decoration: none;
-    color: green;
+    color: black;
     margin-left: .25em;
   }
   footer {
