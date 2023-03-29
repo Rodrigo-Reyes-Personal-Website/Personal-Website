@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  box-sizing: border-box;
+  font-size: 2rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: .5em 1em;
+  box-shadow: 0 2px 4px -2px white;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(36, 29, 39);
+  max-width: 1200px;
+  color: #232323;
+}
+
+h1{
+  font-size: 40px;
+  font-family:'Times New Roman';
+  font-weight: lighter;
+  color: white;
+  text-align: right;
+  text-shadow: 1px 2px 3px black;
+}
+
+.name{
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  min-height: 100vh;
+  padding: 64px 24px 96px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+  float: right;
+}
+
+.links a.active {
+  border-bottom: 1px solid #555;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  margin-left: .25em;
+}
+
+footer {
+  box-sizing: border-box;
+  position:fixed;
+  height: 50px;
+  padding: 16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0 -2px 4px -2px black;
+}
+
+footer .media-link {
+  height: 32px;
+}
+
+footer a {
+  margin-right: 64px;
+  text-decoration: underline;
+  color: blue;
+}
+
+footer a:last-child {
+  margin-right: 0;
+}
+header, footer {
+  background: antiquewhite;
+  bottom: 0 auto;
+  top: 0 auto;
+}
+
+.slider-frame{
+  overflow:hidden;
+  height: 800px;
+  width: 1200px;
+  margin-left: 300px;
+  margin-top: 5px;
+  position: relative;
+}
+
+
+/*-------------SLIDE ANIMATION-------------*/
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position:sticky;
+    float: left;
+}
+
+/* -----------END OF ANIMATION---------------*/

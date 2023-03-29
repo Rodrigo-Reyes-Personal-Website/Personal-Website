@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(36, 29, 39);
+}
+header {
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: .5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+}
+.links {
+    float: right;
+  }
+
+h1 {
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 1px black;
+}
+section > img {
+    height: 160px;
+  }
+  
+  section:nth-of-type(odd) > img {
+    float: left;
+    margin: 10px;
+    padding: auto;
+  }
+  
+  
+  section:nth-of-type(even) > img {
+    float: right;
+    margin: 0 0 34px 34px;
+  }
+  
+section{
+    margin: 40px;
+    padding: 5px;
+}
+.colibri{
+    margin: 0px;
+    border: 0px;
+  background-color: antiquewhite;
+    padding: 5px;
+    padding-left: 5px;
+    border-radius: 10px;  
+    position:unset;
+}
+
+h2{
+    color: aliceblue;
+    font-family: 'Courier New';
+    font-size: 36px;
+    text-align: center;
+}
+
+p{
+    color: antiquewhite;
+    font-size: 18px;
+}
+  
