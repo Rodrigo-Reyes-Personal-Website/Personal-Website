@@ -17,7 +17,9 @@ header {
     padding: .5em 1em;
     box-shadow: 0 2px 4px -2px white;
     background: red;
+    z-index: 100;
 }
+
 .links {
     float: right;
 }
