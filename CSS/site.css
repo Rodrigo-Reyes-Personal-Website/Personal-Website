@@ -26,8 +26,8 @@ header {
 main {
     min-height: 100vh;
     padding: 64px 24px 96px;
-    border-radius: 10px;
-    box-shadow: 0 0 22px 2px white;
+    border-radius: 20px;
+    box-shadow: 0 0 22px 10px red;
     color: brown;
     font-family: 'Open Sans', sans-serif;
 }

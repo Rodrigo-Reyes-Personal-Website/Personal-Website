@@ -1,6 +1,7 @@
 body{
-    background-image: url(me.jpg);
     background-color: rgb(36, 29, 39);
+    max-width: 1000px;
+    margin: 0 auto;
 }
 header {
     font-size: 2rem;
