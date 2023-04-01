@@ -10,7 +10,7 @@ header {
     box-shadow: 0 2px 4px -2px black;
 }
 .links {
-    float: right;
+    text-align: center;
   }
 
 h1 {

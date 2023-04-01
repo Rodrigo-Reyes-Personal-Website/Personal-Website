@@ -21,13 +21,13 @@ header {
 }
 
 .links {
-    float: right;
+    text-align: center;
 }
 main {
     min-height: 100vh;
     padding: 64px 24px 96px;
     border-radius: 20px;
-    box-shadow: 0 0 22px 10px red;
+    box-shadow: 0 0 22px 10px white;
     color: brown;
     font-family: 'Open Sans', sans-serif;
 }
