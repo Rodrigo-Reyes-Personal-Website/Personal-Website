@@ -24,7 +24,8 @@ header {
     text-align: center;
 }
 main {
-    min-height: 100vh;
+    min-height: 120vh;
+    width: auto;
     padding: 64px 24px 96px;
     border-radius: 20px;
     box-shadow: 0 0 22px 10px white;
@@ -71,4 +72,7 @@ main {
   header, footer {
     background: antiquewhite;
   }
-  
+
+footer a:hover{
+  background-color: orange;
+}

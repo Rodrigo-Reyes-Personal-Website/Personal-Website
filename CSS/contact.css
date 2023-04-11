@@ -4,6 +4,10 @@ body {
     
 }
 
+main{
+  min-height: 100vmin;
+}
+
 header{
     font-size: 2rem;
     position: fixed;
@@ -13,14 +17,17 @@ header{
     box-shadow: 0 2px 4px -2px black;
 }
 
+textarea{
+  max-width: 100%;
+}
+
 h2{
     text-align: center;
 }
 /* Style the form element with a border around it */
 form {
-    margin-top: 30%;
+    margin-top: 10%;
     border: 4px solid #f1f1f1;
-    padding-top: 1%;
     background-color: black;
 
   }
