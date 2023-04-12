@@ -72,5 +72,8 @@ main {
   header, footer {
     background: antiquewhite;
   }
-
+ 
+  footer a:hover{
+    background-color: orangered;
+  }
   
