@@ -72,7 +72,7 @@ main {
   header, footer {
     background: antiquewhite;
   }
-
-footer a:hover{
-  background-color: orange;
-}
+  
+  footer a:hover{
+    background-color: orange;
+  }
