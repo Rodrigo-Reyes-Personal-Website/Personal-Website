@@ -76,17 +76,14 @@ form {
     max-width: 100%;
   }
 
-  .test1{
+  .patita{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 10%;
     max-width: 100%;
     padding: 2%;
     height: 100%;
-    z-index: 0;
    
 }
 
@@ -100,7 +97,9 @@ form {
   border-radius: 50%;
   background-color: orange;
   padding-top: 50px;
+  box-shadow: 10px 0 rgba(0,0,0,0.1);
 }
+
 .dedo{
   display: flex;
   flex-direction: row;
@@ -123,12 +122,26 @@ form {
   margin-top: -65px;
 }
 
+.huellas{
+  margin: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  left: auto;
+  bottom: auto;
+  right: auto;
+  top: auto;
+  max-width: 100%;
+  margin-top: -10%;
+  height: 100%;
+}
+
 .huella{
-  margin-top: 10px;
-  margin-left: -41px;
+  display: flex;
+  justify-content: space-around;
   height: 32px;
   width: 32px;
   border-radius: 50%;
   background-color: black;
-  z-index: 1;
 }
