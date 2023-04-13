@@ -16,12 +16,15 @@ header{
 
 main{
   min-height: 100vmin;
+  padding: 64px 24px 96px;
+
 }
 
 h1{
     text-align: center;
     color: #f1f1f1;
 }
+
 /* Style the form element with a border around it */
 form {
     margin-top: 20%;
@@ -76,6 +79,8 @@ form {
     max-width: 100%;
   }
 
+  /* Start of patitas figures */ 
+
   .patita{
     display: flex;
     flex-direction: row;
@@ -122,26 +127,5 @@ form {
   margin-top: -65px;
 }
 
-.huellas{
-  margin: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
-  left: auto;
-  bottom: auto;
-  right: auto;
-  top: auto;
-  max-width: 100%;
-  margin-top: -10%;
-  height: 100%;
-}
 
-.huella{
-  display: flex;
-  justify-content: space-around;
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
-  background-color: black;
-}
+/*end of patitas figures */
